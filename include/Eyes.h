@@ -23,9 +23,8 @@ public:
 	
 	// look at is actually setting the location of a "light".
 	// the pupils and irises are the specular highlight of this
-	// "light". that means that the eyes will actually be looking *away* from
-	// this point ... but by negating coordinates and tweaking numbers in other
-	// places, it works itself out more or less. :)
+	// "light". it's not *quite* the same as legit lookat point, but
+	// by tweaking stuff elsewhere it works itself out. :)
 	void setLookAt(Vec3f lookAt);
 	
 	// open "pupil" i suppose, technically.
