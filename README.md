@@ -19,7 +19,7 @@ This repo contains the XCode project for Mac. I haven't tested on other platform
 
 This was a quick-n-dirty project and there are a lot of constants in the code that are just hard-coded for my front porch. I used rear projection, for example, so the x-axis is reversed. Also the kinect was mounted above:
 
-![Kinect mounted](/images/kinect-mounting.jpg)
+![Kinect mounted](/images/kinect-mounted.jpg)
 
 Anyway, those constants would need to be modified depending on the orientation and location of the eyes and the kinect. Everything could be paramterized and made more general and user-friendly ... someday ... :)
 
